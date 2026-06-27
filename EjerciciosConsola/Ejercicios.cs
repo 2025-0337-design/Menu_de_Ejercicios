@@ -2,11 +2,7 @@ using System;
 
 namespace EjerciciosConsola
 {
-    // Todas las funciones de los ejercicios extraidos del documento original
-    // de Braulio Ricardo Alvarez Gonzaga. La logica interna de cada ejercicio
-    // se mantiene igual que en el PDF; solo se convirtio en metodo para poder
-    // llamarla desde el menu.
-    static class Ejercicios
+        static class Ejercicios
     {
         // ---------------------------------------------------------------
         // Ejercicio 01

@@ -12,7 +12,7 @@ namespace EjerciciosConsola
             {
                 Console.Clear();
                 Console.WriteLine("===================================");
-                Console.WriteLine(" C# - <<EJERCICIOS EN CONSOLA >>>");
+                Console.WriteLine(" C# - << MENU DE EJERCICIOS >>>");
                 Console.WriteLine(" 1.  Salarios y Nomina");
                 Console.WriteLine(" 2.  Descuentos y Facturacion");
                 Console.WriteLine(" 3.  Conversiones de Tiempo");
