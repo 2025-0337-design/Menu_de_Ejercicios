@@ -1,0 +1,15 @@
+C:\Users\Owner\Desktop\programas\C#\formulario\ProyectoMenuWindowsFormsCSharp\ProyectoMenuWindowsFormsCSharp\bin\Debug\net8.0-windows\ProyectoMenuWindowsFormsCSharp.exe
+C:\Users\Owner\Desktop\programas\C#\formulario\ProyectoMenuWindowsFormsCSharp\ProyectoMenuWindowsFormsCSharp\bin\Debug\net8.0-windows\ProyectoMenuWindowsFormsCSharp.deps.json
+C:\Users\Owner\Desktop\programas\C#\formulario\ProyectoMenuWindowsFormsCSharp\ProyectoMenuWindowsFormsCSharp\bin\Debug\net8.0-windows\ProyectoMenuWindowsFormsCSharp.runtimeconfig.json
+C:\Users\Owner\Desktop\programas\C#\formulario\ProyectoMenuWindowsFormsCSharp\ProyectoMenuWindowsFormsCSharp\bin\Debug\net8.0-windows\ProyectoMenuWindowsFormsCSharp.dll
+C:\Users\Owner\Desktop\programas\C#\formulario\ProyectoMenuWindowsFormsCSharp\ProyectoMenuWindowsFormsCSharp\bin\Debug\net8.0-windows\ProyectoMenuWindowsFormsCSharp.pdb
+C:\Users\Owner\Desktop\programas\C#\formulario\ProyectoMenuWindowsFormsCSharp\ProyectoMenuWindowsFormsCSharp\obj\Debug\net8.0-windows\ProyectoMenuWindowsFormsCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Owner\Desktop\programas\C#\formulario\ProyectoMenuWindowsFormsCSharp\ProyectoMenuWindowsFormsCSharp\obj\Debug\net8.0-windows\ProyectoMenuWindowsFormsCSharp.AssemblyInfoInputs.cache
+C:\Users\Owner\Desktop\programas\C#\formulario\ProyectoMenuWindowsFormsCSharp\ProyectoMenuWindowsFormsCSharp\obj\Debug\net8.0-windows\ProyectoMenuWindowsFormsCSharp.AssemblyInfo.cs
+C:\Users\Owner\Desktop\programas\C#\formulario\ProyectoMenuWindowsFormsCSharp\ProyectoMenuWindowsFormsCSharp\obj\Debug\net8.0-windows\ProyectoMenuWindowsFormsCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\programas\C#\formulario\ProyectoMenuWindowsFormsCSharp\ProyectoMenuWindowsFormsCSharp\obj\Debug\net8.0-windows\ProyectoMenuWindowsFormsCSharp.sourcelink.json
+C:\Users\Owner\Desktop\programas\C#\formulario\ProyectoMenuWindowsFormsCSharp\ProyectoMenuWindowsFormsCSharp\obj\Debug\net8.0-windows\ProyectoMenuWindowsFormsCSharp.dll
+C:\Users\Owner\Desktop\programas\C#\formulario\ProyectoMenuWindowsFormsCSharp\ProyectoMenuWindowsFormsCSharp\obj\Debug\net8.0-windows\refint\ProyectoMenuWindowsFormsCSharp.dll
+C:\Users\Owner\Desktop\programas\C#\formulario\ProyectoMenuWindowsFormsCSharp\ProyectoMenuWindowsFormsCSharp\obj\Debug\net8.0-windows\ProyectoMenuWindowsFormsCSharp.pdb
+C:\Users\Owner\Desktop\programas\C#\formulario\ProyectoMenuWindowsFormsCSharp\ProyectoMenuWindowsFormsCSharp\obj\Debug\net8.0-windows\ProyectoMenuWindowsFormsCSharp.genruntimeconfig.cache
+C:\Users\Owner\Desktop\programas\C#\formulario\ProyectoMenuWindowsFormsCSharp\ProyectoMenuWindowsFormsCSharp\obj\Debug\net8.0-windows\ref\ProyectoMenuWindowsFormsCSharp.dll
