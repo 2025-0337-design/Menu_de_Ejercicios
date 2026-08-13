@@ -19,28 +19,25 @@ namespace ProyectoMenuWindowsFormsCSharp
                 return;
             }
 
-            double descuento, sueldoneto;
+            double descuento;
 
-            if (sueldo <= 1000 && sueldo >= 0)
-            {
+            if (sueldo >= 0 && sueldo <= 1000)
                 descuento = sueldo * 0.1;
-            }
-            else if (sueldo <= 2000 && sueldo >= 0)
-            {
+            else if (sueldo <= 2000)
                 descuento = (sueldo - 1000) * 0.05 + (1000 * 0.1);
-            }
             else if (sueldo > 2000)
-            {
                 descuento = (sueldo - 2000) * 0.03 + (1000 * 0.05) + (1000 * 0.10);
-            }
             else
             {
                 lblResultado.Text = "El sueldo no puede ser negativo";
                 return;
             }
 
-            sueldoneto = sueldo - descuento;
-            lblResultado.Text = "El descuento es: " + descuento + "\nEl sueldo neto es: " + sueldoneto;
+            descuento = Math.Round(descuento, 2);
+            double sueldoneto = Math.Round(sueldo - descuento, 2);
+
+            lblResultado.Text = "Descuento:    " + descuento
+                              + "\nSueldo neto: " + sueldoneto;
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
@@ -50,9 +47,7 @@ namespace ProyectoMenuWindowsFormsCSharp
             txtSueldo.Focus();
         }
 
-        private void btnVolver_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+        private void btnVolver_Click(object sender, EventArgs e) { this.Close(); }
+        private void btnSalir_Click(object sender, EventArgs e)  { Application.Exit(); }
     }
 }

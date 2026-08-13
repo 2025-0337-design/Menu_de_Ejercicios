@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectoMenuWindowsFormsCSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa97f63dda03e4b17dc456a5795a88a559e0d611")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f355dd2a8137205e5a81a3a041cc66ebebdb94f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectoMenuWindowsFormsCSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectoMenuWindowsFormsCSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

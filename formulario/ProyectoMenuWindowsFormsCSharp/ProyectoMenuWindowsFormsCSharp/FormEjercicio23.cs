@@ -21,22 +21,21 @@ namespace ProyectoMenuWindowsFormsCSharp
                 return;
             }
 
-            c = c + 1;
-
             if (num1 != 0)
             {
                 if (!double.TryParse(txtNum2.Text, out double num2))
                 {
-                    txtNum2.Enabled = true;
                     MessageBox.Show("Ingresa un numero valido en el segundo campo");
                     txtNum2.Focus();
                     return;
                 }
 
-                double suma = num1 + num2;
-                double resta = num1 - num2;
+                c = c + 1;
+
+                double suma          = num1 + num2;
+                double resta         = num1 - num2;
                 double multiplicacion = num1 * num2;
-                double division = num2 != 0 ? Math.Round(num1 / num2, 2) : 0;
+                double division      = num2 != 0 ? Math.Round(num1 / num2, 2) : 0;
 
                 lstResultados.Items.Add("-- Proceso N." + c + " --");
                 lstResultados.Items.Add("Suma: " + suma);

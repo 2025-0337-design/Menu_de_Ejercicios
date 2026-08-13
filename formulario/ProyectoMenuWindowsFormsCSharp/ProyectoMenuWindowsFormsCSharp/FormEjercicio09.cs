@@ -32,7 +32,7 @@ namespace ProyectoMenuWindowsFormsCSharp
                 cd = cd + 1;
                 acumuladasdesapro = acumuladasdesapro + nota;
             }
-            else if (nota > 10.5 && nota < 20)
+            else if (nota > 10.5 && nota <= 20)
             {
                 ca = ca + 1;
                 acumuladasapro = acumuladasapro + nota;
@@ -40,25 +40,31 @@ namespace ProyectoMenuWindowsFormsCSharp
             acumuladas = acumuladas + nota;
             x = cd + ca;
 
-            lstResultados.Items.Add("Nota ingresada: " + nota + (nota <= 10.5 ? "  (desaprobada)" : "  (aprobada)"));
+            lstResultados.Items.Add("Nota: " + nota + (nota <= 10.5 ? "  (desaprobada)" : "  (aprobada)"));
             txtNota.Clear();
             txtNota.Focus();
 
             btnTerminar.Enabled = true;
-            lblEstado.Text = "Notas ingresadas: " + (int)x + "  -  Agregar otra o ver resultados";
+            lblEstado.Text = "Notas ingresadas: " + (int)x + "  -  Agrega otra o ver resultados";
         }
 
         private void btnTerminar_Click(object sender, EventArgs e)
         {
-            double promedioaprobadas = ca > 0 ? Math.Round(acumuladasapro / ca, 1) : 0;
-            double promediodesaprobadas = cd > 0 ? Math.Round(acumuladasdesapro / cd, 1) : 0;
+            string textoApro  = ca > 0
+                ? "Promedio aprobadas: " + Math.Round(acumuladasapro / ca, 1)
+                : "Promedio aprobadas: sin datos";
+
+            string textoDesapro = cd > 0
+                ? "Promedio desaprobadas: " + Math.Round(acumuladasdesapro / cd, 1)
+                : "Promedio desaprobadas: sin datos";
+
             double promedio = x > 0 ? Math.Round(acumuladas / x, 1) : 0;
 
             lstResultados.Items.Add("-----------------------------");
             lstResultados.Items.Add("Notas desaprobadas: " + cd);
             lstResultados.Items.Add("Notas aprobadas: " + ca);
-            lstResultados.Items.Add("Promedio aprobadas: " + promedioaprobadas);
-            lstResultados.Items.Add("Promedio desaprobadas: " + promediodesaprobadas);
+            lstResultados.Items.Add(textoApro);
+            lstResultados.Items.Add(textoDesapro);
             lstResultados.Items.Add("Promedio final: " + promedio);
 
             btnAgregar.Enabled = false;

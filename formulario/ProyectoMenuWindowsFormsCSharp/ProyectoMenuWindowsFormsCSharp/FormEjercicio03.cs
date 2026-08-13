@@ -23,13 +23,15 @@ namespace ProyectoMenuWindowsFormsCSharp
 
             if (monto > 100)
             {
-                descuento = monto * 0.1;
-                lblResultado.Text = "El monto " + monto + " tiene un descuento de " + descuento;
+                descuento = Math.Round(monto * 0.1, 2);
+                lblResultado.Text = "Descuento (10%): " + descuento
+                                  + "\nPrecio final:      " + Math.Round(monto - descuento, 2);
             }
             else if (monto <= 100 && monto > 0)
             {
-                descuento = monto * 0.2;
-                lblResultado.Text = "El monto " + monto + " tiene un descuento de " + descuento;
+                descuento = Math.Round(monto * 0.2, 2);
+                lblResultado.Text = "Descuento (20%): " + descuento
+                                  + "\nPrecio final:      " + Math.Round(monto - descuento, 2);
             }
             else
             {
@@ -44,9 +46,7 @@ namespace ProyectoMenuWindowsFormsCSharp
             txtMonto.Focus();
         }
 
-        private void btnVolver_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+        private void btnVolver_Click(object sender, EventArgs e) { this.Close(); }
+        private void btnSalir_Click(object sender, EventArgs e)  { Application.Exit(); }
     }
 }

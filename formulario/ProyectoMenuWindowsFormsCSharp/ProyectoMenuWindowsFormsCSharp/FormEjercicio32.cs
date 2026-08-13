@@ -13,39 +13,40 @@ namespace ProyectoMenuWindowsFormsCSharp
 
         private void btnVerificar_Click(object sender, EventArgs e)
         {
-            string c1 = txtClave1.Text;
-            if (c1 != "tienes")
+            if (txtClave1.Text != "tienes")
             {
-                lblResultado.Text = "TE EQUIVOCASTE DE FIESTA";
+                lblResultado.ForeColor = System.Drawing.Color.Red;
+                lblResultado.Text = "TE EQUIVOCASTE DE FIESTA  (clave 1 incorrecta)";
                 return;
             }
-
-            string c2 = txtClave2.Text;
-            if (c2 != "que ser")
+            if (txtClave2.Text != "que ser")
             {
-                lblResultado.Text = "TE EQUIVOCASTE DE FIESTA";
+                lblResultado.ForeColor = System.Drawing.Color.Red;
+                lblResultado.Text = "TE EQUIVOCASTE DE FIESTA  (clave 2 incorrecta)";
                 return;
             }
-
-            string c3 = txtClave3.Text;
-            if (c3 != "invitado")
+            if (txtClave3.Text != "invitado")
             {
-                lblResultado.Text = "TE EQUIVOCASTE DE FIESTA";
+                lblResultado.ForeColor = System.Drawing.Color.Red;
+                lblResultado.Text = "TE EQUIVOCASTE DE FIESTA  (clave 3 incorrecta)";
                 return;
             }
-
-            string c4 = txtClave4.Text;
-            if (c4 != "para")
+            if (txtClave4.Text != "para")
             {
-                lblResultado.Text = "TE EQUIVOCASTE DE FIESTA";
+                lblResultado.ForeColor = System.Drawing.Color.Red;
+                lblResultado.Text = "TE EQUIVOCASTE DE FIESTA  (clave 4 incorrecta)";
                 return;
             }
-
-            string c5 = txtClave5.Text;
-            if (c5 != "ingresar")
-                lblResultado.Text = "TE EQUIVOCASTE DE FIESTA";
+            if (txtClave5.Text != "ingresar")
+            {
+                lblResultado.ForeColor = System.Drawing.Color.Red;
+                lblResultado.Text = "TE EQUIVOCASTE DE FIESTA  (clave 5 incorrecta)";
+            }
             else
+            {
+                lblResultado.ForeColor = System.Drawing.Color.FromArgb(39, 174, 96);
                 lblResultado.Text = "BIENVENIDO A LA FIESTA";
+            }
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
@@ -56,9 +57,7 @@ namespace ProyectoMenuWindowsFormsCSharp
             txtClave1.Focus();
         }
 
-        private void btnVolver_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+        private void btnVolver_Click(object sender, EventArgs e) { this.Close(); }
+        private void btnSalir_Click(object sender, EventArgs e)  { Application.Exit(); }
     }
 }

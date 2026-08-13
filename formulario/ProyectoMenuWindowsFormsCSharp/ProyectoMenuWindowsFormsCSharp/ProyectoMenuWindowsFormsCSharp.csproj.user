@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="FormEjercicio01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio01.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio02.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio03.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio04.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio05.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio06.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio06.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio07.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio07.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio08.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio08.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio09.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio09.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio10.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio11.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio12.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio13.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio14.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio15.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio18.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio19.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio20.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio21.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio22.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio23.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio24.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio24.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio25.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio26.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio26.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio27.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio27.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio28.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio28.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio29.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio30.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio30.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio31.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio31.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio32.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEjercicio32.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormMenu.Disigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

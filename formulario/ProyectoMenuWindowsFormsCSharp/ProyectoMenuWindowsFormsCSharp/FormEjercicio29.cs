@@ -8,7 +8,6 @@ namespace ProyectoMenuWindowsFormsCSharp
     {
         private double caja = 371;
         private double totalegresos = 0;
-        private double restocaja = 0;
         private double cont = 0;
 
         public FormEjercicio29()
@@ -24,21 +23,26 @@ namespace ProyectoMenuWindowsFormsCSharp
                 return;
             }
 
-            cont = cont + 1;
-            totalegresos = totalegresos + egreso;
-            restocaja = caja - totalegresos;
+            cont++;
+            totalegresos += egreso;
+            double restocaja = caja - totalegresos;
 
             if (egreso != -1)
             {
-                lstResultados.Items.Add("Egreso " + cont + ": " + egreso);
+                lstResultados.Items.Add("Egreso " + cont + ": " + egreso
+                                      + "   |   Saldo: " + Math.Round(restocaja, 2));
+                lblSaldo.Text = "Saldo en caja: " + Math.Round(restocaja, 2);
                 txtEgreso.Clear();
                 txtEgreso.Focus();
             }
             else
             {
+                double totalReal  = Math.Round(totalegresos + 1, 2);
+                double saldoReal  = Math.Round(restocaja - 1, 2);
                 lstResultados.Items.Add("----------------------------");
-                lstResultados.Items.Add("Total de egresos: " + (totalegresos + 1));
-                lstResultados.Items.Add("Sobrante en caja: " + (restocaja - 1));
+                lstResultados.Items.Add("Total egresos: " + totalReal);
+                lstResultados.Items.Add("Sobrante en caja: " + saldoReal);
+                lblSaldo.Text = "Sobrante final en caja: " + saldoReal;
                 btnAgregar.Enabled = false;
             }
         }
@@ -47,17 +51,15 @@ namespace ProyectoMenuWindowsFormsCSharp
         {
             caja = 371;
             totalegresos = 0;
-            restocaja = 0;
             cont = 0;
             txtEgreso.Clear();
             lstResultados.Items.Clear();
+            lblSaldo.Text = "Saldo en caja: 371";
             btnAgregar.Enabled = true;
             txtEgreso.Focus();
         }
 
-        private void btnVolver_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+        private void btnVolver_Click(object sender, EventArgs e) { this.Close(); }
+        private void btnSalir_Click(object sender, EventArgs e)  { Application.Exit(); }
     }
 }
