@@ -61,7 +61,7 @@ namespace ProyectoMenuWindowsFormsCSharp
 
             this.btnVolver.Location = new System.Drawing.Point(260, 335);
             this.btnVolver.Size = new System.Drawing.Size(100, 28);
-            this.btnVolver.Text = "Volver";
+            this.btnVolver.Text = "Salir";
             this.btnVolver.UseVisualStyleBackColor = true;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
 

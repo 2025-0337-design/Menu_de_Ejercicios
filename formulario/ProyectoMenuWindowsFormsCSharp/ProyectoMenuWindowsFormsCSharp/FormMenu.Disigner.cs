@@ -203,15 +203,14 @@ namespace ProyectoMenuWindowsFormsCSharp
             this.lblTotal.Name = "lblTotal";
 
             // btnSalir
-            this.btnSalir.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
-            this.btnSalir.Location = new System.Drawing.Point(430, 12);
-            this.btnSalir.Size = new System.Drawing.Size(130, 34);
+            this.btnSalir.Location = new System.Drawing.Point(410, 12);
+            this.btnSalir.Size = new System.Drawing.Size(150, 34);
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalir.FlatAppearance.BorderSize = 0;
             this.btnSalir.BackColor = System.Drawing.Color.FromArgb(231, 76, 60);
             this.btnSalir.ForeColor = System.Drawing.Color.White;
             this.btnSalir.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.btnSalir.Text = "Salir";
+            this.btnSalir.Text = "Salir del programa";
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
 

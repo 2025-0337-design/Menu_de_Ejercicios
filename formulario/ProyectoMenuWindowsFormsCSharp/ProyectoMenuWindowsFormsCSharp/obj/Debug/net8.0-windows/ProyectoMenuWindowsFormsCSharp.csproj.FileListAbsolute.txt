@@ -17,3 +17,4 @@ C:\Users\Owner\Desktop\programas\C#\formulario\ProyectoMenuWindowsFormsCSharp\Pr
 C:\Users\Owner\Desktop\programas\C#\formulario\ProyectoMenuWindowsFormsCSharp\ProyectoMenuWindowsFormsCSharp\obj\Debug\net8.0-windows\ProyectoMenuWindowsFormsCSharp.FormEjercicio23.resources
 C:\Users\Owner\Desktop\programas\C#\formulario\ProyectoMenuWindowsFormsCSharp\ProyectoMenuWindowsFormsCSharp\obj\Debug\net8.0-windows\ProyectoMenuWindowsFormsCSharp.csproj.GenerateResource.cache
 C:\Users\Owner\Desktop\programas\C#\formulario\ProyectoMenuWindowsFormsCSharp\ProyectoMenuWindowsFormsCSharp\obj\Debug\net8.0-windows\ProyectoMenuWindowsFormsCSharp.FormEjercicio02.resources
+C:\Users\Owner\Desktop\programas\C#\formulario\ProyectoMenuWindowsFormsCSharp\ProyectoMenuWindowsFormsCSharp\obj\Debug\net8.0-windows\Proyecto.E48FF352.Up2Date

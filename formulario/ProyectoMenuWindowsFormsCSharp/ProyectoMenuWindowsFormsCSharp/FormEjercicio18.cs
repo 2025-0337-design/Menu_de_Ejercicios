@@ -28,8 +28,9 @@ namespace ProyectoMenuWindowsFormsCSharp
             intentos++;
             lblIntentos.Text = "Intentos: " + intentos;
 
-            if (caracter == "a" || caracter == "e" || caracter == "i" ||
-                caracter == "o" || caracter == "u")
+            string c = caracter.ToLower();
+            if (c == "a" || c == "e" || c == "i" ||
+                c == "o" || c == "u")
             {
                 lblResultado.Text = "La primera vocal ingresada fue: \"" + caracter + "\"  (en el intento " + intentos + ")";
                 vocalEncontrada = true;
@@ -55,6 +56,5 @@ namespace ProyectoMenuWindowsFormsCSharp
         }
 
         private void btnVolver_Click(object sender, EventArgs e) { this.Close(); }
-        private void btnSalir_Click(object sender, EventArgs e)  { Application.Exit(); }
     }
 }

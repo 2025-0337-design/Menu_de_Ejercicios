@@ -16,7 +16,6 @@ namespace ProyectoMenuWindowsFormsCSharp
             this.btnAgregar   = new System.Windows.Forms.Button();
             this.btnLimpiar   = new System.Windows.Forms.Button();
             this.btnVolver    = new System.Windows.Forms.Button();
-            this.btnSalir     = new System.Windows.Forms.Button();
             this.lblEstado    = new System.Windows.Forms.Label();
             this.lblAcumulado = new System.Windows.Forms.Label();
             this.lblResultado = new System.Windows.Forms.Label();
@@ -61,16 +60,9 @@ namespace ProyectoMenuWindowsFormsCSharp
 
             this.btnVolver.Location = new System.Drawing.Point(240, 128);
             this.btnVolver.Size = new System.Drawing.Size(85, 30);
-            this.btnVolver.Text = "Volver";
+            this.btnVolver.Text = "Salir";
             this.btnVolver.UseVisualStyleBackColor = true;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
-
-            this.btnSalir.Location = new System.Drawing.Point(335, 128);
-            this.btnSalir.Size = new System.Drawing.Size(85, 30);
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
-
             this.lblResultado.Location = new System.Drawing.Point(20, 175);
             this.lblResultado.Size = new System.Drawing.Size(420, 30);
             this.lblResultado.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
@@ -87,7 +79,6 @@ namespace ProyectoMenuWindowsFormsCSharp
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnVolver);
-            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.lblResultado);
             this.MaximizeBox = false;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -104,7 +95,6 @@ namespace ProyectoMenuWindowsFormsCSharp
         private System.Windows.Forms.Button  btnAgregar;
         private System.Windows.Forms.Button  btnLimpiar;
         private System.Windows.Forms.Button  btnVolver;
-        private System.Windows.Forms.Button  btnSalir;
         private System.Windows.Forms.Label   lblResultado;
     }
 }
